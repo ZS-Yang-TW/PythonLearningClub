@@ -1,5 +1,5 @@
 import openai
-openai.api_key = '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'
+openai.api_key = 'OPENAI_API_KEY'
 
 # AI 的資料設定
 ai_name = "欣怡"
