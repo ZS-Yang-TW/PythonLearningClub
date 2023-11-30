@@ -5,3 +5,6 @@
 # email
 *.cfg
 *.html
+
+# pycache
+*.pyc
