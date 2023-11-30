@@ -1,0 +1,7 @@
+# user_data
+*.xlsx
+*.csv
+
+# email
+*.cfg
+*.html
