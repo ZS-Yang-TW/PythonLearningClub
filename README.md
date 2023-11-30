@@ -18,11 +18,17 @@
 
 # Notion 學習資料共享平台
 
+[Python 實體讀書會 / 交流會 (台北)](https://www.notion.so/Python-d12c0389e5874dceb9273432b849cd59)
+
+# 近期報名資訊
+
+【實體參加】 500 元/次 (學生 400 元/次)
+【線上參加】 400 元/次 (學生 300 元/次)
+
 [2024《精通 Python》學習計畫 第二期 報名表單](https://docs.google.com/forms/d/1zhyVoJ76TbC8UHIxbL2KE7xpgho6AP1WtzPxzcBencA/edit)
 
-# 聯絡方式
+# 我的聯絡方式
 
-粉絲專頁：[Steven 程式所指
-](https://www.facebook.com/profile.php?id=61551329014694)
+粉絲專頁：[Steven 程式所指](https://www.facebook.com/profile.php?id=61551329014694)
 
 電子郵件：msycomtw@gmail.com
