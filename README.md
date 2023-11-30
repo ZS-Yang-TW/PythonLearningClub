@@ -23,6 +23,7 @@
 # 近期報名資訊
 
 【實體參加】 500 元/次 (學生 400 元/次)
+
 【線上參加】 400 元/次 (學生 300 元/次)
 
 [2024《精通 Python》學習計畫 第二期 報名表單](https://docs.google.com/forms/d/1zhyVoJ76TbC8UHIxbL2KE7xpgho6AP1WtzPxzcBencA/edit)
