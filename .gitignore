@@ -8,3 +8,10 @@
 
 # pycache
 *.pyc
+
+# google api
+key.json
+
+# app
+group.ipynb
+sheet.ipynb
