@@ -26,10 +26,10 @@
 
 【線上參加】 400 元/次 (學生 300 元/次)
 
-[2024《精通 Python》學習計畫 第二期 報名表單](https://docs.google.com/forms/d/1zhyVoJ76TbC8UHIxbL2KE7xpgho6AP1WtzPxzcBencA/edit)
+[Python 學習讀書會 線上報名表單](https://forms.gle/pDHzCZB4mFb72ZnD6)
 
-# 我的聯絡方式
-
-粉絲專頁：[Steven 程式所指](https://www.facebook.com/profile.php?id=61551329014694)
+# 聯絡方式
+[Steven 程式所指](https://www.facebook.com/profile.php?id=61551329014694)
+[Python 學習讀書會](https://www.facebook.com/profile.php?id=61553979676290)
 
 電子郵件：msycomtw@gmail.com
