@@ -1,5 +1,7 @@
-import openai
-openai.api_key = 'OPENAI_API_KEY'
+from openai import OpenAI
+import re
+my_key = '<你的 API 金鑰>'
+client = OpenAI(api_key = my_key)
 
 # AI 的資料設定
 ai_name = "欣怡"
@@ -74,18 +76,23 @@ while True:
     if mode == "練習模式":
         
         # 將歷史記錄與連同訊息一併輸入API
-        response = openai.ChatCompletion.create(
-        model = "gpt-3.5-turbo",
-        messages = [{"role": "user", "content": history}],  # 連同歷史記錄與客戶輸入
-        temperature = 0.8)
-        
+        response = client.chat.completions.create(
+            model = "gpt-3.5-turbo",
+            messages = [{"role": "user", "content": history}],  # 連同歷史記錄與客戶輸入
+            temperature = 0.8
+        )
+            
         # 取得AI的回應，並將回覆加入對話歷史
         ai_msg = response.choices[0].message.content
         history += f"{ai_msg}\n"
         
         # 取出【好感度】
-        ai_msg_no_score = ai_msg[:-7]
-        score = int(ai_msg[-3])
+        score = re.search(r"好感度(\d+)分", ai_msg)
+        score = int(score.group(1))
+        if score<10:
+            ai_msg_no_score = ai_msg[:-7]
+        else:
+            ai_msg_no_score = ai_msg[:-8]
         
         # 輸出AI的回應
         print(f"{ai_name}: {ai_msg_no_score}")
